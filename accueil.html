@@ -3,25 +3,32 @@
     <head>
         <meta charset="utf-8" />
         <title>Accueil</title>
+        <link rel="stylesheet" href="style.css"/>
     </head>
 
     <body>
-        <h1 id="ancre">Page d'accueil</h1>
-        <h2> Choisir un moteur de recherche</h2>
+        <header id="ancre">
+            <h1> Choisir un moteur de recherche</h1>
+        </header>
 
-        <p> Ecosia, pour des informations simples et décarbonnées ou Google, pour des informations plus complètes ou en anglais.</p>
-        <a href="https://www.ecosia.org/"><img src="images/ecosia.png" postion=""></a>
-        <a href="https://www.google.com/"><img src="images/google.png"></a>
-        <br>
+        <section id=choix>
+            <div class="element">
+                <a href="https://www.ecosia.org/"><img src="images/ecosia.png"></a>
+                <p>Ecosia</p>
+            </div>
+            <div class="element">
+                <a href="https://www.google.com/"><img src="images/google.png"></a>
+                <p>Google</p>
+            </div>
+            <div class="element">
+                <a href="https://www.duckduckgo.com"><img src="images/duckduckgo.png"></a>
+                <p>Duckduckgo</p>
+            </div>
+        </section>
 
-        <figure>
-            <img src="images/google.png" alt="Logo Google" />
-            <img src="images/ecosia.png" alt="Logo Ecosia" />
-            <figcaption>Logos des différents navigateurs</figcaption>
-        </figure>
-
-        <p> <a href="mailto:teolefebvre@gmail.com" target="_blank">Envoyez-moi un e-mail !</a></p>
-
-        <p><a href="#ancre">Remonter en haut de la page</a></p>
+        <footer>
+            <p id="github"> <a href="https://github.com/Tecubo/page_web_accueil" target="_blank">Mon GitHub</a></p>
+            <p id="haut"><a href="#ancre">Remonter en haut de la page</a></p>
+        </footer>
     </body>
 </html>

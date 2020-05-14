@@ -1,0 +1,97 @@
+@font-face
+{
+    font-family: "roboto";
+    src: url(roboto/Roboto-Regular.ttf);
+}
+
+*
+{
+    font-family: roboto;
+}
+
+body
+{
+    background-color: white;
+}
+
+h1
+{
+    text-align: center;
+}
+
+header
+{
+    /*width: 50%;*/
+    visibility: hidden;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    text-align: center;
+    padding: 12px;
+    margin: 5% 10% 5% 10%;
+    font-size: 1.3em;
+
+    /*background-color: #CCC;*/
+}
+
+#choix
+{
+    font-size: 2em;
+    padding: 50px;
+    margin: 5% 10% 5% 10%;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+
+    /*background-color: #CCC;*/
+    border-radius: 10px;
+}
+
+.element:nth-child(1)
+{
+    /*background-color: orange;*/
+    width: 300px;
+}
+
+.element:nth-child(2)
+{
+    /*background-color: blue;*/
+    width: 300px;
+}
+
+.element:nth-child(3)
+{
+    /*background-color: blue;*/
+    width: 300px;
+}
+
+footer
+{
+    font-size: 1em;
+    bottom: 5%;
+    margin: 5% 10% 5% 10%;
+    border-radius: 10px;
+    
+    margin-top: 700px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+
+    /*background-color: #CCC;*/
+}
+
+#haut
+{
+    /*background-color: orange;*/
+    order: 1;
+}
+
+#github
+{
+    text-align: right;
+    /*background-color: blue;*/
+    order: 2;
+    position: absolute;
+    right: 10px;
+}
