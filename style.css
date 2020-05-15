@@ -1,97 +1,83 @@
-@font-face
-{
+@font-face {
     font-family: "roboto";
     src: url(roboto/Roboto-Regular.ttf);
 }
 
-*
-{
+* {
+    margin: 0;
+    border: none;
+    padding: 0;
+}
+
+
+body {
+    background-color: white;
     font-family: roboto;
 }
 
-body
-{
-    background-color: white;
-}
-
-h1
-{
-    text-align: center;
-}
-
-header
-{
-    /*width: 50%;*/
-    visibility: hidden;
+header {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
     display: flex;
-    justify-content: center;
-    border-radius: 10px;
-    text-align: center;
-    padding: 12px;
-    margin: 5% 10% 5% 10%;
-    font-size: 1.3em;
-
-    /*background-color: #CCC;*/
+    justify-content: right;
+    padding: 1em;
 }
 
-#choix
-{
-    font-size: 2em;
-    padding: 50px;
-    margin: 5% 10% 5% 10%;
+section {
+    height: 100vh;
+}
+
+
+
+h1 {
+    text-align: center;
+}
+a {
+    text-decoration: none;
+}
+
+
+
+
+.container {
     display: flex;
     flex-wrap: wrap;
     text-align: center;
     justify-content: center;
-
-    /*background-color: #CCC;*/
-    border-radius: 10px;
+    align-items: center;
 }
 
-.element:nth-child(1)
-{
-    /*background-color: orange;*/
+.card {
     width: 300px;
 }
 
-.element:nth-child(2)
-{
-    /*background-color: blue;*/
-    width: 300px;
+.card .card-title {
+    color: #1B1F23;
+    font-size: 2em;
 }
 
-.element:nth-child(3)
-{
-    /*background-color: blue;*/
-    width: 300px;
-}
 
-footer
-{
-    font-size: 1em;
-    bottom: 5%;
-    margin: 5% 10% 5% 10%;
-    border-radius: 10px;
-    
-    margin-top: 700px;
+
+
+.button {
+    padding: 0.5em 1em;
+    border-radius: 0.25em;
     display: flex;
     justify-content: center;
-    position: relative;
-
-    /*background-color: #CCC;*/
+    align-items: center;
 }
 
-#haut
-{
-    /*background-color: orange;*/
-    order: 1;
+.button > img {
+    height: 1.5em;
+    margin-right: 0.5em;
 }
 
-#github
-{
-    text-align: right;
-    /*background-color: blue;*/
-    order: 2;
-    position: absolute;
-    right: 10px;
+
+
+#github-button {
+    font-size: 1.1em;
+    background-color: #1B1F23;
+    color: #fff;
 }
